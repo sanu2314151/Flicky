@@ -130,7 +130,7 @@ function init([ moviesMetaData, moviesKeywords, ratings ]) {
   console.log('(B) Content-Based Prediction ... \n');
 
   console.log('(1) Computing Cosine Similarity \n');
-  const title = 'Batman Begins';
+  const title = 'Le notti erotiche dei morti viventi';
   const contentBasedRecommendation = predictWithContentBased(X, MOVIES_IN_LIST, title);
 
   console.log(`(2) Prediction based on "${title}" \n`);
